@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "bun run index.ts",
-    "build": "bun build --entrypoints ./index.ts --outdir ./dist --target node",	
+    "bundle": "bun build --entrypoints ./index.ts --outdir ./dist --target node",	
     "dev": "bun --watch index.ts"
   },
   "devDependencies": {
